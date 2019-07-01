@@ -1,0 +1,1 @@
+aria2c --input-file=urls --max-concurrent-downloads=1 --connect-timeout=60 --max-connection-per-server=16 --split=16 --min-split-size=1M --human-readable=true --download-result=full --file-allocation=none
